@@ -1168,7 +1168,55 @@ rumah pager hitam</textarea>
     document.getElementById('btnUnduh').addEventListener('click',unduhTxt);
     document.getElementById('btnBersihkanHasil').addEventListener('click',()=>{daftarUl.innerHTML='';hasilTerakhir=[];jumlahPill.classList.add('hidden');hasilSection.classList.add('hidden');hideError();document.getElementById('formGenerator').scrollIntoView({behavior:'smooth'});});
 
-    const DATA_DEFAULT_NAMA=['Rumah Knzon','Bang knzon','Ka knzon','bos knzon','bos khnzon','mas knzon','mas khnzon','Kaka Knzon','Mang knzon','ibu knzon','mamah knzon','ibu ay.knzon','tuan knzon','Knzon bos','juragan knzon','raja knzon','dewa knzon','Knzon bosky','pak knzon','mang knzon','JAWARA Knzon','KNZON BOSKU','KNZON RYS','KNZON NGERI','KNZON CEO','KNZON BIGBOSSS','KNZON RAJA NYA','KNZON MUSK','KNZON MAN'].join('\n');
+    const DATA_DEFAULT_NAMA=[
+'Mas KheNzon',
+'Bang KheNzon',
+'Abang KheNzon',
+'Kak KheNzon',
+'Kakak KheNzon',
+'Kang KheNzon',
+'Bli KheNzon',
+'Bung KheNzon',
+'Cak KheNzon',
+'Gus KheNzon',
+'Ujang KheNzon',
+'Bro KheNzon',
+'Boss KheNzon',
+'Gan KheNzon',
+'Komandan KheNzon',
+'Mayor KheNzon',
+'Sultan KheNzon',
+'Chief KheNzon',
+'Captain KheNzon',
+'Kapten KheNzon',
+'Rmh KheNzon',
+'King KheNzon',
+'Bos KheNzon',
+'Om KheNzon',
+'Kaka KheNzon',
+'Mang KheNzon',
+'Ibu KheNzon',
+'Mamah KheNzon',
+'Ibu aa.KheNzon',
+'Tuan KheNzon',
+'KheNzon bos',
+'Juragan KheNzon',
+'Raja KheNzon',
+'Dewa KheNzon',
+'KheNzon boskie',
+'Pak KheNzon',
+'Jawara KheNzon',
+'KheNzon Slow',
+'KheNzon Bosku',
+'KheNzon Ngeri',
+'KheNzon Ceo',
+'KheNzon Bigbosss',
+'KheNzon Rajanya',
+'KheNzon Musk',
+'KheNzon Brayy',
+'KheNzon Man',
+'KheNzon Cak'
+].join('\n');
     const DATA_DEFAULT_PATOKAN=['belakang nasi uduk','pandawa','belakang pom','rumah oren','pager hitam','gang di bawah pohon','rumah di gang','didalam pandawa','pandawa no 25','rumah lantai 2','rumah pager hitam'].join('\n');
 
     renderTipeOptions();setSumber('offline');
